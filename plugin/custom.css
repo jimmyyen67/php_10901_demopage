@@ -1,3 +1,7 @@
+* {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Open Sans", "Noto Sans TC", "Microsoft Jhenghei", "Sans-Serif";
 }
@@ -64,19 +68,19 @@ footer > .position-fixed {
   background-attachment: fixed;
 }
 
-#traffic iframe{
+#traffic iframe {
   filter: grayscale(0.5);
 }
-#information a:link{
-color: whitesmoke;
-}
-#information a:active{
+#information a:link {
   color: whitesmoke;
 }
-#information a:visited{
+#information a:active {
   color: whitesmoke;
 }
-#information a:hover{
-  color: #CCC;
+#information a:visited {
+  color: whitesmoke;
+}
+#information a:hover {
+  color: #ccc;
   text-decoration: underline;
 }
