@@ -1,5 +1,5 @@
 * {
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 body {
@@ -83,4 +83,18 @@ footer > .position-fixed {
 #information a:hover {
   color: #ccc;
   text-decoration: underline;
+}
+
+header#jimMenu a:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0%;
+  background: white;
+  transition: all .5s ease-in-out;
+}
+
+header#jimMenu a.active:after{
+  transition: all .5s ease-in-out;
+  width: 100%;
 }

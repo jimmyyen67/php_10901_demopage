@@ -19,13 +19,14 @@
 	<!-- Java Script -->
 	<script src="plugin/jquery-3.5.1.min.js"></script>
 	<script src="plugin/bootstrap.bundle.js"></script>
+	<script src="plugin/custom.js"></script>
 </head>
 
 <body>
 	<!-- 網頁導覽列 -->
-	<header class="fixed-top bg-dark">
+	<header class="fixed-top bg-dark" id="jimMenu">
 		<nav class="navbar navbar-expand-md navbar-light container">
-			<a class="navbar-brand text-light" href="#">泰山渡假大飯店</a>
+			<a class="navbar-brand text-light" href="#slider">泰山渡假大飯店</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -615,7 +616,7 @@
 		<small class="mb-0">copyright &copy; <a href="https://github.com/jimmyyen67" target="_blank"><span
 					class="text-warning font-weight-bold">Jimmy
 					Yen</span></a> all rights reserved</small>
-		<a href="#slider" class="btn btn-info position-fixed"><i class="fas fa-angle-double-up"><br><span>TOP</span></i></a>
+		<a href="#slider" id="scrollTop" class="btn btn-info position-fixed"><i class="fas fa-angle-double-up"><br><span>TOP</span></i></a>
 	</footer>
 
 </body>
